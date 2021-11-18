@@ -1,0 +1,6 @@
+# the type column is an abbreviation used to label the type of object in the output plots. In this example we include radial velocity (RV) and self-luminous planets (SL), but you can define any type abbreviation you want.
+Name,type,RA_d,dec_d,RA_h,dec_h
+47 UMa,RV,164.86655749999997,40.430256111111106,10h59m27.9738s,40d25m48.922s
+HR 8799,SL,346.86964833333326,21.134250555555553,23h07m28.7156s,21d08m03.302s
+HD 95086,SL,164.26258999999996,-68.66734611111112,10h57m03.0216s,-68d40m02.446s
+_Gal Bulge_,WFI,266.4049882865447,-28.936177761791473,17h45m37.19718877s,-28d56m10.23994245s

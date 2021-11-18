@@ -1,0 +1,6 @@
+#Name, type
+# the type column is an abbreviation used to label the type of object in the output plots. In this example we include radial velocity (RV) and self-luminous (SL) planets and reference stars (Ref), but you can define any type abbreviation you want.
+47 UMa, RV
+HR 8799, SL
+beta Pic, SL
+zet Pup, Ref  
