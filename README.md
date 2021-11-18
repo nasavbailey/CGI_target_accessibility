@@ -1,13 +1,14 @@
-# Roman Coronagraph Instrument target accessibility calculator
+# Roman Coronagraph Instrument (CGI) target accessibility calculator
 
-Simple tool to show approximately which days of the year Roman may point to a given target. It is based only on the Sun-angle constraints shown in "figures/Roman-pointing-constraints" (based on a figure from Holler et al). This tool only provides approximate accessibilty dates because it has several simplifying assumptions:
+Simple tool to show approximately which days of the year Roman may point to a given target. It is based only on the Sun-angle constraints shown in "figures/Roman-pointing-constraints" (based on a figure from Holler et al). This tool only provides approximate accessibility dates because it has several simplifying assumptions:
  * the observatory is at geocenter, not the true L2 halo orbit
  * keep-out zones for the Earth, Moon, and other solar system bodies are not included. The Earth and Moon keep-outs have only a small effect for the majority of targets. The other solar system objects' keep-out zones are so small that their impacts are negligible.
 
 Overplots a shaded region for the 2 seasons per year when the Galactic Bulge is observable, as the Galactic Bulge Time Domain Survey (GBTDS) will typically take priority during these times
  
 Required packages: astropy, matplotlib, pandas, numpy
-Optional packages: astroquery; this pacakge is used to query simbad to retrieve target coordinates; without this package the user must provide a csv file of target coordinates.
+
+Optional packages: astroquery; this package is used to query simbad to retrieve target coordinates; without this package the user must provide a csv file of target coordinates.
 
 Input: A text file of either target names (see example.txt) or target names and coordinates (see "coords_example_file.csv")
 
