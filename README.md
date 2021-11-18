@@ -1,4 +1,6 @@
-# Simple tool to show approximately which days of the year Roman may point to a given target. It is based only on the Sun-angle constraints shown in "figures/Roman-pointing-constraints" (based on a figure from Holler et al). This tool only provides approximate accessibilty dates because it has several simplifying assumptions:
+# Roman Coronagraph Instrument target accessibility calculator
+
+Simple tool to show approximately which days of the year Roman may point to a given target. It is based only on the Sun-angle constraints shown in "figures/Roman-pointing-constraints" (based on a figure from Holler et al). This tool only provides approximate accessibilty dates because it has several simplifying assumptions:
  * the observatory is at geocenter, not the true L2 halo orbit
  * keep-out zones for the Earth, Moon, and other solar system bodies are not included. The Earth and Moon keep-outs have only a small effect for the majority of targets. The other solar system objects' keep-out zones are so small that their impacts are negligible.
 
